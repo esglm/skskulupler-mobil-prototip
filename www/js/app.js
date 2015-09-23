@@ -4,19 +4,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
 
-  if(window.Connection) {
-  if(navigator.connection.type == Connection.NONE) {
-      $ionicPopup.confirm({
-          title: "İnternet Bağlantısı Yok!",
-          content: "Aygıtınızın internet bağlantısını kontrol edin!"
-      })
-      .then(function(result) {
-          if(!result) {
-              ionic.Platform.exitApp();
-          }
-      });
-  }
-}
+
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
   if (window.cordova && window.cordova.plugins.Keyboard) {
