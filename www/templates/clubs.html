@@ -5,7 +5,7 @@
 <div class="list">
 
     <a class="item item-avatar" href="#" ng-repeat="club in clubsData">
-      <img src="venkman.jpg">
+      <img ng-src="{{club.logo}}">
       <h2>{{club.name}}</h2>
       <p>{{club.description}}</p>
     </a>
