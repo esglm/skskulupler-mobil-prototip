@@ -33,42 +33,58 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
 .factory("getData", function($http) {
-    var apiUrl          = 'https://api.foursquare.com/v2/';
+    var clubsUrl      = 'jsonfortest/clubs.json',
+        activitiesUrl = 'jsonfortest/activities.json',
+        newsUrl       = 'jsonfortest/news.json',
+        noticesUrl    = 'jsonfortest/notices.json';
 
     return {
-        searchVenue: function(searchText, success) {
+        getClubs: function(success) {
             $http({
-                url: apiUrl + 'venues/search?',
+                url: clubsUrl,
                 method: "GET",
-                params: {
-                    client_id: clientId,
-                    client_secret: clientSecret,
-                    v: v,
-                    near: 'Samsun,tr',
-                    query: searchText
-                }
+                type: 'json'
             })
                 .success(function(data) {
                     success(data);
                 });
         },
-        getVenue: function(venueId, success) {
+
+        getActivities: function(success) {
             $http({
-                url: apiUrl + 'venues/' + venueId,
+                url: activitiessUrl,
                 method: "GET",
-                params: {
-                    client_id: clientId,
-                    client_secret: clientSecret,
-                    v: v
-                }
+                type: 'json'
             })
                 .success(function(data) {
                     success(data);
                 });
-        }
+        },
+
+        getNews: function(success) {
+            $http({
+                url: newsUrl,
+                method: "GET",
+                type: 'json'
+            })
+                .success(function(data) {
+                    success(data);
+                });
+        },
+
+        getNotices: function(success) {
+            $http({
+                url: noticesUrl,
+                method: "GET",
+                type: 'json'
+            })
+                .success(function(data) {
+                    success(data);
+                });
+        } 
+
     }
 })
-
 
 .config(function($stateProvider, $urlRouterProvider) {
   

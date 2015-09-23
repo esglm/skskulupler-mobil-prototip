@@ -10,24 +10,35 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('ClubsCtrl', function($scope) {
+.controller('ClubsCtrl', function($scope , getData) {
+	getData.getClubs(function(data){
+		$scope.clubsData = data;
+	})
 
 })
 
-.controller('ActivitiesCtrl', function($scope){
-
-
-})
-
-.controller('NewsCtrl', function($scope){
-
+.controller('ActivitiesCtrl', function($scope , getData){
+	getData.getActivities(function(data){
+		$scope.activitiesData = data;
+	})
 
 })
 
-.controller('NoticesCtrl', function($scope){
-
+.controller('NewsCtrl', function($scope , getData){
+	getData.getNews(function(data){
+		$scope.newsData = data;
+	})
 
 })
+
+.controller('NoticesCtrl', function($scope , getData){
+	getData.getClubs(function(data){
+		$scope.noticesData = data;
+	})
+
+})
+
+
 
 
 
