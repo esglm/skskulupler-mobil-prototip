@@ -2,7 +2,6 @@ angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function($scope) {
   $scope.mainData = {};
-
 })
 
 .controller('MainCtrl', function($scope) {
