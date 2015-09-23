@@ -32,7 +32,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('NoticesCtrl', function($scope , getData){
-	getData.getClubs(function(data){
+	getData.getNotices(function(data){
 		$scope.noticesData = data;
 	})
 

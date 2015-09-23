@@ -1,1 +1,9 @@
-[{"id":1,"name":"Dağcılık","logo":"asd","supervisor":1,"regulation":"qwe","description":"qwe","email":"qwe@aqssd","url":"http://127.0.0.1:3000/clubs/1.json"},{"id":2,"name":"Dağcılıkasd","logo":"asd","supervisor":1,"regulation":"asdscvzxcv","description":"zxvbcvb","email":"xcvöbxdö@asd","url":"http://127.0.0.1:3000/clubs/2.json"}]
+[
+	{"id":1,"title":"Haber 1","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":2,"title":"Haber 2","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":3,"title":"Haber 3","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":4,"title":"Haber 4","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":5,"title":"Haber 5","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":6,"title":"Haber 6","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"}
+
+]

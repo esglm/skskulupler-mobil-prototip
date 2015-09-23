@@ -42,8 +42,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         getClubs: function(success) {
             $http({
                 url: clubsUrl,
-                method: "GET",
-                type: 'json'
+                method: "GET"
             })
                 .success(function(data) {
                     success(data);
@@ -52,9 +51,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
         getActivities: function(success) {
             $http({
-                url: activitiessUrl,
-                method: "GET",
-                type: 'json'
+                url: activitiesUrl,
+                method: "GET"
             })
                 .success(function(data) {
                     success(data);
@@ -64,8 +62,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         getNews: function(success) {
             $http({
                 url: newsUrl,
-                method: "GET",
-                type: 'json'
+                method: "GET"
             })
                 .success(function(data) {
                     success(data);
@@ -75,8 +72,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         getNotices: function(success) {
             $http({
                 url: noticesUrl,
-                method: "GET",
-                type: 'json'
+                method: "GET"
             })
                 .success(function(data) {
                     success(data);
