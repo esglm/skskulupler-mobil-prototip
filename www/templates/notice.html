@@ -1,33 +1,20 @@
 <ion-view view-title="OMÜ Kulüpler">
-
-
-<ion-content>
-
-<div class="list card">
-
-  <div class="item item-divider">
-  <center>
-    <h1 ng-bind="noticesData[noticeId].title"></h1>
-  </center>
-  </div>
-
-  <div class="item item-image">
-    <img ng-src="{{noticesData[noticeId].image}}">
-  </div>
-
-  <div class="item">
-    <p><b>Kulüp: </b>{{clubsData[noticesData[noticeId].club_id - 1].name}}</p>
-  </div>
-
-  <div class="item">
-    <p ng-bind="noticesData[noticeId].content"></p>
-  </div>
-
-
-
-</div>
-
-
-
-</ion-content>
+  <ion-content>
+    <div class="list card">
+      <div class="item item-divider">
+        <center>
+          <h1 ng-bind="noticesData[noticeId].title"></h1>
+        </center>
+      </div>
+      <div class="item item-image">
+        <img ng-src="{{noticesData[noticeId].image}}">
+      </div>
+      <div class="item">
+        <p><b>Kulüp: </b>{{clubsData[noticesData[noticeId].club_id - 1].name}}</p>
+      </div>
+      <div class="item">
+        <p ng-bind="noticesData[noticeId].content"></p>
+      </div>
+    </div>
+  </ion-content>
 </ion-view>

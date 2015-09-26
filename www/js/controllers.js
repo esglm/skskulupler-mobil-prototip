@@ -1,7 +1,22 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope) {
+.controller('AppCtrl', function($scope , $ionicLoading) {
   $scope.mainData = {};
+
+  $scope.show = function() {
+  	$ionicLoading.show({
+      template: 'Loading...'
+    });
+  };
+  
+  $scope.hide = function(){
+    $ionicLoading.hide();
+  };
+
+  $scope.exitMyApp = function(){
+  	ionic.Platform.exitApp(); 
+  };
+
 })
 
 .controller('MainCtrl', function($scope) {
@@ -82,7 +97,7 @@ angular.module('starter.controllers', [])
 
 	$scope.noticeId = $stateParams.Id - 1;
 
-	
+
 
 
 })

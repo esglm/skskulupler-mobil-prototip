@@ -32,11 +32,10 @@
 <div class="item item-divider">
     Duyurular
 </div>
-<div ng-model=""></div>
 
-<ul class="list">
-    <li class="item" ng-repeat="notice in noticesData | filter: {club_id : clubId + 1}">{{notice.title}}</li>
-</ul>
+<div class="list">
+    <a class="item" ng-repeat="notice in noticesData | filter: {club_id : clubId + 1}" ui-sref="app.notice({Id: notice.id})">{{notice.title}}</a>
+</div>
 </div>
 
 <div class="list card">
