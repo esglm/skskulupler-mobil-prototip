@@ -2,23 +2,16 @@
 <ion-content>
 <center><h3>Etkinlikler</h3></center>
 
-<div class="list card">
+<div class="list">
 
-  <div class="item item-avatar">
-    <img src="http://tutupash.com/site/assets/nin_logo.jpeg">
-    <h2>Deneme Kartı</h2>
-    <p>Nine Inch Nails</p>
-  </div>
-
-  <div class="item item-image">
-    <img src="http://ecx.images-amazon.com/images/I/41D5vU4I1NL.jpg">
-  </div>
-
-  <a class="item item-icon-left assertive" href="#">
-    <i class="icon ion-music-note"></i>
-    Liste öğesi
-  </a>
+    <a class="item item-avatar" href="#" ng-repeat="activitie in activitiesData">
+      <img ng-src="{{activitie.image}}">
+      <h2 ng-bind="activitie.title"></h2>
+      <p>Kulüp: {{clubsData[activitie.club_id -1].name}}</p>
+    </a>
 
 </div>
+
+
 </ion-content>
 </ion-view>

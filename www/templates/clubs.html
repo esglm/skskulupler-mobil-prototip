@@ -4,7 +4,7 @@
 
 <div class="list">
 
-    <a class="item item-avatar" href="#" ng-repeat="club in clubsData">
+    <a class="item item-avatar" ng-repeat="club in clubsData | orderBy:'name'" ui-sref="app.club({Id: club.id})">
       <img ng-src="{{club.logo}}">
       <h2>{{club.name}}</h2>
       <p>{{club.description}}</p>

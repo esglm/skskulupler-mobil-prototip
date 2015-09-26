@@ -100,6 +100,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+
+  .state('app.club', {
+    url: '/clubs/:Id',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/club.html',
+        controller: 'ClubCtrl'
+      }
+    }
+  })
+
   .state('app.activities', {
     url: '/activities',
     views: {
@@ -109,6 +120,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+
   .state('app.news', {
   url: '/news',
   views: {
@@ -118,6 +130,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   }
   })
+
   .state('app.notices', {
   url: '/notices',
   views: {
@@ -127,6 +140,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   }
   })
+
   .state('app.about', {
   url: '/about',
   views: {
@@ -135,6 +149,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   }
   })
+  
   .state('app.login', {
   url: '/login',
   views: {

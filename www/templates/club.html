@@ -1,0 +1,53 @@
+<ion-view view-title="OMÜ Kulüpler">
+
+
+<ion-content>
+
+<div class="list card">
+
+  <div class="item item-avatar">
+    <img ng-src="{{clubsData[clubId].logo}}">
+    <h2 ng-bind="clubsData[clubId].name"></h2>
+    <p ng-bind="clubsData[clubId].description"></p>
+  </div>
+
+  <div class="item item-image">
+    <img ng-src="{{clubsData[clubId].logo}}">
+  </div>
+
+  <div class="item item-icon-left positive">
+      <i class="icon ion-ios-book"></i>
+      <h2></h2>
+      <p ng-bind="'Yönetmelik: ' + clubsData[clubId].regulation"></p>
+  </div>
+
+  <div class="item item-icon-left positive">
+      <i class="icon ion-email"></i>
+      <p ng-bind="'İletişim: ' + clubsData[clubId].email"></p>
+  </div>
+
+</div>
+
+<div class="list card">
+<div class="item item-divider">
+    Duyurular
+</div>
+<div ng-model=""></div>
+
+<ul class="list">
+    <li class="item" ng-repeat="notice in noticesData | filter: {club_id : clubId}">{{notice.title}}</li>
+</ul>
+</div>
+
+<div class="list card">
+<div class="item item-divider">
+    Etkinlikler
+</div>
+
+<ul class="list">
+    <li class="item" ng-repeat="activitie in activitiesData | filter: {club_id : clubId}">{{activitie.title}}</li>
+</ul>
+</div>
+
+</ion-content>
+</ion-view>

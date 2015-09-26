@@ -16,9 +16,29 @@ angular.module('starter.controllers', [])
 
 })
 
+.controller('ClubCtrl', function($scope , $stateParams , getData) {
+	getData.getClubs(function(data){
+		$scope.clubsData = data;
+	})
+
+	getData.getNotices(function(data){
+	$scope.noticesData = data;
+	})
+
+	getData.getActivities(function(data){
+		$scope.activitiesData = data;
+	})
+
+	$scope.clubId = $stateParams.Id - 1;
+
+})
+
 .controller('ActivitiesCtrl', function($scope , getData){
 	getData.getActivities(function(data){
 		$scope.activitiesData = data;
+	})
+	getData.getClubs(function(data){
+		$scope.clubsData = data;
 	})
 
 })
@@ -34,6 +54,11 @@ angular.module('starter.controllers', [])
 	getData.getNotices(function(data){
 		$scope.noticesData = data;
 	})
+
+	getData.getClubs(function(data){
+		$scope.clubsData = data;
+	})
+
 
 })
 

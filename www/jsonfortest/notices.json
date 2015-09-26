@@ -1,1 +1,16 @@
-[{"id":1,"club_id":1,"title":"Duyuru 1","content":"Duyuru İçeriği","url":"http://localhost:3000/notices/1.json"}]
+[{"id":1,"club_id":1,"title":"Duyuru 1","content":"Duyuru İçeriği 1","url":"http://localhost:3000/notices/1.json"},
+ {"id":2,"club_id":1,"title":"Duyuru 2","content":"Duyuru İçeriği 2","url":"http://localhost:3000/notices/1.json"},
+ {"id":3,"club_id":1,"title":"Duyuru 3","content":"Duyuru İçeriği 3","url":"http://localhost:3000/notices/1.json"},
+ {"id":4,"club_id":2,"title":"Duyuru 4","content":"Duyuru İçeriği 4","url":"http://localhost:3000/notices/1.json"},
+ {"id":5,"club_id":2,"title":"Duyuru 5","content":"Duyuru İçeriği 5","url":"http://localhost:3000/notices/1.json"},
+ {"id":6,"club_id":2,"title":"Duyuru 6","content":"Duyuru İçeriği 6","url":"http://localhost:3000/notices/1.json"},
+ {"id":7,"club_id":3,"title":"Duyuru 7","content":"Duyuru İçeriği 7","url":"http://localhost:3000/notices/1.json"},
+ {"id":8,"club_id":3,"title":"Duyuru 8","content":"Duyuru İçeriği 8","url":"http://localhost:3000/notices/1.json"},
+ {"id":9,"club_id":4,"title":"Duyuru 9","content":"Duyuru İçeriği 9","url":"http://localhost:3000/notices/1.json"},
+ {"id":10,"club_id":4,"title":"Duyuru 10","content":"Duyuru İçeriği 10","url":"http://localhost:3000/notices/1.json"},
+ {"id":11,"club_id":5,"title":"Duyuru 11","content":"Duyuru İçeriği 11","url":"http://localhost:3000/notices/1.json"},
+ {"id":12,"club_id":5,"title":"Duyuru 12","content":"Duyuru İçeriği 12","url":"http://localhost:3000/notices/1.json"}
+
+
+
+]

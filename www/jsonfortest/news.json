@@ -1,9 +1,15 @@
 [
-	{"id":1,"title":"Haber 1","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
-	{"id":2,"title":"Haber 2","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
-	{"id":3,"title":"Haber 3","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
-	{"id":4,"title":"Haber 4","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
-	{"id":5,"title":"Haber 5","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"},
-	{"id":6,"title":"Haber 6","content":"Haber İçeriği","image":null,"url":"http://localhost:3000/infos/1.json"}
+	{"id":1,"title":"Haber 1","content":"Haber İçeriği 1","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":2,"title":"Haber 2","content":"Haber İçeriği 2","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":3,"title":"Haber 3","content":"Haber İçeriği 3","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":4,"title":"Haber 4","content":"Haber İçeriği 4","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":5,"title":"Haber 5","content":"Haber İçeriği 5","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":6,"title":"Haber 6","content":"Haber İçeriği 6","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":7,"title":"Haber 7","content":"Haber İçeriği 7","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":8,"title":"Haber 8","content":"Haber İçeriği 8","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":9,"title":"Haber 9","content":"Haber İçeriği 9","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":10,"title":"Haber 10","content":"Haber İçeriği 10","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":11,"title":"Haber 11","content":"Haber İçeriği 11","image":null,"url":"http://localhost:3000/infos/1.json"},
+	{"id":12,"title":"Haber 12","content":"Haber İçeriği 12","image":null,"url":"http://localhost:3000/infos/1.json"}
 
 ]
