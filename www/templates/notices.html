@@ -1,11 +1,13 @@
 <ion-view view-title="OMÜ Kulüpler">
 <ion-content>
-<center><h3>Duyurular</h3></center>
+  <div class="item item-divider">
+    <center><h1>Duyurular</h1></center>
+  </div>
 
 <div class="list">
 
-    <a class="item item-avatar" href="#" ng-repeat="notice in noticesData">
-      <img ng-src="{{new.image}}">
+    <a class="item item-avatar" ng-repeat="notice in noticesData" ui-sref="app.notice({Id: notice.id})">
+      <img ng-src="{{notice.image}}">
       <h2 ng-bind="notice.title"></h2>
       <p>Kulüp: {{clubsData[notice.club_id -1].name}}</p>
     </a>

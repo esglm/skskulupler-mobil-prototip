@@ -71,6 +71,22 @@ angular.module('starter.controllers', [])
 
 })
 
+.controller('NoticeCtrl', function($scope , $stateParams , getData){
+	getData.getNotices(function(data){
+		$scope.noticesData = data;
+	})
+
+	getData.getClubs(function(data){
+		$scope.clubsData = data;
+	})
+
+	$scope.noticeId = $stateParams.Id - 1;
+
+	
+
+
+})
+
 
 
 
