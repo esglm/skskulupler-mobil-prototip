@@ -5,49 +5,25 @@
 
 <div class="list card">
 
-  <div class="item item-avatar">
-    <img ng-src="{{clubsData[clubId].logo}}">
-    <h2 ng-bind="clubsData[clubId].name"></h2>
-    <p ng-bind="clubsData[clubId].description"></p>
+  <div class="item item-divider">
+  <center>
+    <h1 ng-bind="newsData[newsItemId].title"></h1>
+  </center>
   </div>
 
   <div class="item item-image">
-    <img ng-src="{{clubsData[clubId].logo}}">
+    <img ng-src="{{newsData[newsItemId].image}}">
   </div>
 
-  <div class="item item-icon-left positive">
-      <i class="icon ion-ios-book"></i>
-      <h2>Yönetmelik:</h2>
-      <p ng-bind="clubsData[clubId].regulation"></p>
+  <div class="item">
+    <p ng-bind="newsData[newsItemId].content"></p>
   </div>
 
-  <div class="item item-icon-left positive">
-      <i class="icon ion-email"></i>
-      <h2></h2>
-      <p ng-bind="'İletişim: ' + clubsData[clubId].email"></p>
-  </div>
+
 
 </div>
 
-<div class="list card">
-<div class="item item-divider">
-    Duyurular
-</div>
 
-<ul class="list">
-    <li class="item" ng-repeat="notice in noticesData">{{notice.title}}</li>
-</ul>
-</div>
-
-<div class="list card">
-<div class="item item-divider">
-    Etkinlikler
-</div>
-
-<ul class="list">
-    <li class="item" ng-repeat="activitie in activitiesData">{{activitie.title}} {{activitie.club_id}}</li>
-</ul>
-</div>
 
 </ion-content>
 </ion-view>

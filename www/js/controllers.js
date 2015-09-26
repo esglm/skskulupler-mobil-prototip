@@ -50,6 +50,15 @@ angular.module('starter.controllers', [])
 
 })
 
+.controller('NewsItemCtrl', function($scope , $stateParams , getData){
+	getData.getNews(function(data){
+		$scope.newsData = data;
+	})
+
+	$scope.newsItemId = $stateParams.Id - 1;
+
+})
+
 .controller('NoticesCtrl', function($scope , getData){
 	getData.getNotices(function(data){
 		$scope.noticesData = data;
