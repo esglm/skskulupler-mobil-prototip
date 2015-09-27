@@ -6,7 +6,7 @@
 
 <div class="list">
 
-    <a class="item item-avatar" href="#" ng-repeat="news in newsData" ui-sref="app.newsItem({Id: news.id})">
+    <a class="item item-avatar" ng-repeat="news in newsData" ui-sref="app.newsItem({Id: news.id})">
       <img ng-src="{{news.image}}">
       <h2>{{news.title}}</h2>
       <p>{{news.content}}</p>

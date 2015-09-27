@@ -1,0 +1,45 @@
+<ion-view view-title="OMÜ Kulüpler">
+
+
+<ion-content>
+
+<div class="list card">
+
+  <div class="item item-divider">
+  <center>
+    <h1 ng-bind="activitiesData[activitieId].title"></h1>
+  </center>
+  </div>
+
+  <div class="item item-image">
+    <img ng-src="{{activitiesData[activitieId].image}}">
+  </div>
+
+  <div class="item">
+    <p><b>Açıklama : </b>{{activitiesData[activitieId].description}}</p>
+  </div>
+
+  <div class="item">
+    <p><b>Kulüp : </b>{{clubsData[activitiesData[activitieId].club_id - 1].name}}</p>
+  </div>
+
+  <div class="item">
+    <p><b>Adres : </b>{{activitiesData[activitieId].address}}</p>
+  </div>
+
+  <div class="item">
+    <p><b>Başlangıç Zamanı : </b>{{activitiesData[activitieId].start_date}}</p>
+  </div>
+
+  <div class="item">
+    <p><b>Bitiş Zamanı : </b>{{activitiesData[activitieId].finish_date}}</p>
+  </div>
+
+
+
+</div>
+
+
+
+</ion-content>
+</ion-view>

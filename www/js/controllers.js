@@ -5,7 +5,7 @@ angular.module('starter.controllers', [])
 
   $scope.show = function() {
   	$ionicLoading.show({
-      template: 'Loading...'
+      template: 'Yükleniyor...'
     });
   };
   
@@ -55,6 +55,18 @@ angular.module('starter.controllers', [])
 	getData.getClubs(function(data){
 		$scope.clubsData = data;
 	})
+
+})
+
+.controller('ActivitieCtrl', function($scope , $stateParams , getData){
+	getData.getActivities(function(data){
+		$scope.activitiesData = data;
+	})
+	getData.getClubs(function(data){
+		$scope.clubsData = data;
+	})
+
+	$scope.activitieId = $stateParams.Id - 1;
 
 })
 

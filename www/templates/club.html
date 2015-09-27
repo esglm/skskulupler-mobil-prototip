@@ -43,9 +43,9 @@
     Etkinlikler
 </div>
 
-<ul class="list">
-    <li class="item" ng-repeat="activitie in activitiesData | filter: {club_id : clubId + 1}">{{activitie.title}}</li>
-</ul>
+<div class="list">
+    <a class="item" ng-repeat="activitie in activitiesData | filter: {club_id : clubId + 1}" ui-sref="app.activitie({Id: activitie.id})">{{activitie.title}}</a>
+</div>
 </div>
 
 </ion-content>

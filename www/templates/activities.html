@@ -6,7 +6,7 @@
 
 <div class="list">
 
-    <a class="item item-avatar" href="#" ng-repeat="activitie in activitiesData">
+    <a class="item item-avatar" ui-sref="app.activitie({Id : activitie.id})" ng-repeat="activitie in activitiesData">
       <img ng-src="{{activitie.image}}">
       <h2 ng-bind="activitie.title"></h2>
       <p>Kulüp: {{clubsData[activitie.club_id -1].name}}</p>
