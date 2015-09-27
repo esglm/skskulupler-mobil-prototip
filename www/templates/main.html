@@ -6,32 +6,58 @@
 
 <div class="list card">
 
-  <div class="item item-avatar">
-    <img src="http://tutupash.com/site/assets/nin_logo.jpeg">
-    <h2>Deneme Kartı</h2>
-    <p>Nine Inch Nails</p>
+  <div class="item item-divider">
+    
+    <h2><i class="icon ion-home"></i> Son Haberler</h2>
   </div>
 
-  <div class="item item-image">
-    <img src="http://ecx.images-amazon.com/images/I/41D5vU4I1NL.jpg">
+  <div class="list">
+
+    <a class="item item-avatar" ng-repeat="news in newsData | orderBy:'-id' | limitTo: 5" ui-sref="app.newsItem({Id: news.id})">
+      <img ng-src="{{news.image}}">
+      <h2>{{news.title}}</h2>
+      <p>{{news.content}}</p>
+    </a>
+
   </div>
 
-  <a class="item item-icon-left assertive" href="#">
-    <i class="icon ion-music-note"></i>
-    Liste öğesi
-  </a>
-  <a class="item item-icon-left assertive" href="#">
-    <i class="icon ion-music-note"></i>
-    Liste öğesi
-  </a>
-  <a class="item item-icon-left assertive" href="#">
-    <i class="icon ion-music-note"></i>
-    Liste öğesi
-  </a>
-  <a class="item item-icon-left assertive" href="#">
-    <i class="icon ion-music-note"></i>
-    Liste öğesi
-  </a>
+</div>
+
+<div class="list card">
+
+  <div class="item item-divider">
+    
+    <h2><i class="icon ion-ios-flame"></i> Son Etkinlikler</h2>
+  </div>
+
+  <div class="list">
+
+    <a class="item item-avatar" ui-sref="app.activitie({Id : activitie.id})" ng-repeat="activitie in activitiesData | orderBy:'-id' | limitTo: 5">
+      <img ng-src="{{activitie.image}}">
+      <h2 ng-bind="activitie.title"></h2>
+      <p>Kulüp: {{clubsData[activitie.club_id -1].name}}</p>
+    </a>
+
+</div>
+
+</div>
+
+<div class="list card">
+
+  <div class="item item-divider">
+    
+    <h2><i class="icon ion-ios-bell"></i> Son Duyurular</h2>
+  </div>
+
+  <div class="list">
+
+    <a class="item item-avatar" ng-repeat="notice in noticesData | orderBy:'-id' | limitTo: 5" ui-sref="app.notice({Id: notice.id})">
+      <img ng-src="{{notice.image}}">
+      <h2 ng-bind="notice.title"></h2>
+      <p>Kulüp: {{clubsData[notice.club_id -1].name}}</p>
+    </a>
+
+</div>
 
 </div>
 

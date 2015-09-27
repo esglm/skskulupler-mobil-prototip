@@ -19,7 +19,20 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('MainCtrl', function($scope) {
+.controller('MainCtrl', function($scope , getData) {
+	getData.getActivities(function(data){
+		$scope.activitiesData = data;
+	})
+	getData.getNews(function(data){
+		$scope.newsData = data;
+	})
+	getData.getNotices(function(data){
+		$scope.noticesData = data;
+	})
+	getData.getClubs(function(data){
+		$scope.clubsData = data;
+	})
+
 
 
 })
