@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.sksmobil765500" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>sksmobil</name>
+<widget id="com.omusks.omukulupler" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>OMÜ Kulüpler</name>
   <description>
-        An Ionic Framework and Cordova project.
+        Bu proje UZEM yazılım kampı çalışması olarak geliştirilmiştir.
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="emrullah.saglam@bil.omu.edu.tr" href="http://www.omu.edu.tr">
+      UZEM Yazılım Kampı Öğrenci Grubu
     </author>
   <content src="index.html"/>
   <access origin="*"/>
