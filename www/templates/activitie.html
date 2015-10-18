@@ -12,26 +12,31 @@
   </div>
 
   <div class="item item-image">
-    <img ng-src="{{activitiesData[activitieId].image}}">
+    <img ng-src="{{activitiesData[activitieId].avatar}}">
   </div>
 
-  <div class="item">
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-ios-information"></i>
     <p><b>Açıklama : </b>{{activitiesData[activitieId].description}}</p>
   </div>
 
-  <div class="item">
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-person-stalker"></i>
     <p><b>Kulüp : </b>{{clubsData[activitiesData[activitieId].club_id - 1].name}}</p>
   </div>
 
-  <div class="item">
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-location"></i>
     <p><b>Adres : </b>{{activitiesData[activitieId].address}}</p>
   </div>
 
-  <div class="item">
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-play"></i>
     <p><b>Başlangıç Zamanı : </b>{{activitiesData[activitieId].start_date}}</p>
   </div>
 
-  <div class="item">
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-stop"></i>
     <p><b>Bitiş Zamanı : </b>{{activitiesData[activitieId].finish_date}}</p>
   </div>
 

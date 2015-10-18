@@ -12,11 +12,11 @@
   </div>
 
   <div class="item item-image">
-    <img ng-src="{{newsData[newsItemId].image}}">
+    <img ng-src="{{newsData[newsItemId].avatar}}">
   </div>
 
-  <div class="item">
-    <p ng-bind="newsData[newsItemId].content"></p>
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-ios-information"></i><p ng-bind="newsData[newsItemId].content"></p>
   </div>
 
 

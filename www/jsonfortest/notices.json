@@ -1,15 +1,15 @@
-[{"id":1,"club_id":1,"title":"Duyuru 1","content":"Duyuru İçeriği 1","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":2,"club_id":1,"title":"Duyuru 2","content":"Duyuru İçeriği 2","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":3,"club_id":1,"title":"Duyuru 3","content":"Duyuru İçeriği 3","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":4,"club_id":2,"title":"Duyuru 4","content":"Duyuru İçeriği 4","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":5,"club_id":2,"title":"Duyuru 5","content":"Duyuru İçeriği 5","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":6,"club_id":2,"title":"Duyuru 6","content":"Duyuru İçeriği 6","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":7,"club_id":3,"title":"Duyuru 7","content":"Duyuru İçeriği 7","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":8,"club_id":3,"title":"Duyuru 8","content":"Duyuru İçeriği 8","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":9,"club_id":4,"title":"Duyuru 9","content":"Duyuru İçeriği 9","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":10,"club_id":4,"title":"Duyuru 10","content":"Duyuru İçeriği 10","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":11,"club_id":5,"title":"Duyuru 11","content":"Duyuru İçeriği 11","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
- {"id":12,"club_id":5,"title":"Duyuru 12","content":"Duyuru İçeriği 12","image":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"}
+[{"id":1,"club_id":1,"title":"Duyuru 1","content":"Duyuru İçeriği 1","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":2,"club_id":1,"title":"Duyuru 2","content":"Duyuru İçeriği 2","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":3,"club_id":1,"title":"Duyuru 3","content":"Duyuru İçeriği 3","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":4,"club_id":2,"title":"Duyuru 4","content":"Duyuru İçeriği 4","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":5,"club_id":2,"title":"Duyuru 5","content":"Duyuru İçeriği 5","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":6,"club_id":2,"title":"Duyuru 6","content":"Duyuru İçeriği 6","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":7,"club_id":3,"title":"Duyuru 7","content":"Duyuru İçeriği 7","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":8,"club_id":3,"title":"Duyuru 8","content":"Duyuru İçeriği 8","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":9,"club_id":4,"title":"Duyuru 9","content":"Duyuru İçeriği 9","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":10,"club_id":4,"title":"Duyuru 10","content":"Duyuru İçeriği 10","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":11,"club_id":5,"title":"Duyuru 11","content":"Duyuru İçeriği 11","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"},
+ {"id":12,"club_id":5,"title":"Duyuru 12","content":"Duyuru İçeriği 12","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/notices/1.json"}
 
 
 

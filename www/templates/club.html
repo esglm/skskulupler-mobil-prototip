@@ -5,25 +5,30 @@
 
 <div class="list card">
 
-  <div class="item item-avatar">
-    <img ng-src="{{clubsData[clubId].logo}}">
-    <h2 ng-bind="clubsData[clubId].name"></h2>
-    <p ng-bind="clubsData[clubId].description"></p>
+  <div class="item item-divider">
+    <center>
+      <h1 ng-bind="clubsData[clubId].name"></h1>
+    </center>
+
   </div>
 
   <div class="item item-image">
-    <img ng-src="{{clubsData[clubId].logo}}">
+    <img ng-src="{{clubsData[clubId].avatar}}">
   </div>
 
-  <div class="item item-icon-left positive">
-      <i class="icon ion-ios-book"></i>
-      <h2></h2>
-      <p ng-bind="'Yönetmelik: ' + clubsData[clubId].regulation"></p>
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-ios-information"></i>
+    <p><b>Açıklama : </b>{{clubsData[clubId].description}}</p>
   </div>
 
-  <div class="item item-icon-left positive">
-      <i class="icon ion-email"></i>
-      <p ng-bind="'İletişim: ' + clubsData[clubId].email"></p>
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-ios-book"></i>
+    <p><b>Yönetmelik : </b>{{clubsData[clubId].regulation}}</p>
+  </div>
+
+  <div class="item item-text-wrap item-icon-left positive">
+    <i class="icon ion-email"></i>
+    <p><b>İletişim : </b>{{clubsData[clubId].email}}</p>
   </div>
 
 </div>

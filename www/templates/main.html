@@ -7,16 +7,15 @@
 <div class="list card">
 
   <div class="item item-divider">
-    
     <h2><i class="icon ion-ios-paper"></i> Son Haberler</h2>
   </div>
 
   <div class="list">
 
     <a class="item item-avatar" ng-repeat="news in newsData | orderBy:'-id' | limitTo: 5" ui-sref="app.newsItem({Id: news.id})">
-      <img ng-src="{{news.image}}">
+      <img ng-src="{{news.avatar}}">
       <h2>{{news.title}}</h2>
-      <p>{{news.content}}</p>
+      <p>{{news.content  | limitTo: 25}}...</p>
     </a>
 
   </div>
@@ -26,14 +25,13 @@
 <div class="list card">
 
   <div class="item item-divider">
-    
     <h2><i class="icon ion-ios-flame"></i> Son Etkinlikler</h2>
   </div>
 
   <div class="list">
 
     <a class="item item-avatar" ui-sref="app.activitie({Id : activitie.id})" ng-repeat="activitie in activitiesData | orderBy:'-id' | limitTo: 5">
-      <img ng-src="{{activitie.image}}">
+      <img ng-src="{{activitie.avatar}}">
       <h2 ng-bind="activitie.title"></h2>
       <p>Kulüp: {{clubsData[activitie.club_id -1].name}}</p>
     </a>
@@ -45,19 +43,16 @@
 <div class="list card">
 
   <div class="item item-divider">
-    
     <h2><i class="icon ion-ios-bell"></i> Son Duyurular</h2>
   </div>
 
   <div class="list">
-
     <a class="item item-avatar" ng-repeat="notice in noticesData | orderBy:'-id' | limitTo: 5" ui-sref="app.notice({Id: notice.id})">
-      <img ng-src="{{notice.image}}">
+      <img ng-src="{{notice.avatar}}">
       <h2 ng-bind="notice.title"></h2>
       <p>Kulüp: {{clubsData[notice.club_id -1].name}}</p>
     </a>
-
-</div>
+  </div>
 
 </div>
 

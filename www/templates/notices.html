@@ -7,7 +7,7 @@
 <div class="list">
 
     <a class="item item-avatar" ng-repeat="notice in noticesData" ui-sref="app.notice({Id: notice.id})">
-      <img ng-src="{{notice.image}}">
+      <img ng-src="{{notice.avatar}}">
       <h2 ng-bind="notice.title"></h2>
       <p>Kulüp: {{clubsData[notice.club_id -1].name}}</p>
     </a>

@@ -7,12 +7,14 @@
         </center>
       </div>
       <div class="item item-image">
-        <img ng-src="{{noticesData[noticeId].image}}">
+        <img ng-src="{{noticesData[noticeId].avatar}}">
       </div>
-      <div class="item">
-        <p><b>Kulüp: </b>{{clubsData[noticesData[noticeId].club_id - 1].name}}</p>
+      <div class="item item-text-wrap item-icon-left positive">
+        <i class="icon ion-person-stalker"></i>
+        <p><b>Kulüp:</b>{{clubsData[noticesData[noticeId].club_id - 1].name}}</p>
       </div>
-      <div class="item">
+      <div class="item item-text-wrap item-icon-left positive">
+        <i class="icon ion-ios-information"></i>
         <p ng-bind="noticesData[noticeId].content"></p>
       </div>
     </div>
