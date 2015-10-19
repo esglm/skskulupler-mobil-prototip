@@ -1,8 +1,8 @@
 [
-	{"id":1,"name":"Dağcılık","avatar":"http://omukulupler.byethost18.com/clubimages/dagcilik.jpg","supervisor":1,"regulation":"Yönetmelik 1","description":"Dağcılık Kulübü Açıklama","email":"dagcilik"},
-	{"id":2,"name":"Satranç","avatar":"http://omukulupler.byethost18.com/clubimages/satranc.jpg","supervisor":1,"regulation":"Yönetmelik 2","description":"Satranç Kulübü Açıklama","email":"satranc"},
-	{"id":3,"name":"Sinema","avatar":"http://omukulupler.byethost18.com/clubimages/sinema.jpg","supervisor":1,"regulation":"Yönetmelik 3","description":"Sinema Kulübü Açıklama","email":"sinema"},
-	{"id":4,"name":"Tiyatro","avatar":"http://omukulupler.byethost18.com/clubimages/tiyatro.jpg","supervisor":1,"regulation":"Yönetmelik 4","description":"Tiyatro Kulübü Açıklama","email":"tiyatro"},
-	{"id":5,"name":"Bilişim","avatar":"http://omukulupler.byethost18.com/clubimages/bilisim.png","supervisor":1,"regulation":"Yönetmelik 5","description":"Bilişim Kulübü Açıklama","email":"bilisim@bilisim.com"},
-	{"id":6,"name":"Atıcılık","avatar":"http://omukulupler.byethost18.com/clubimages/aticilik.jpg","supervisor":1,"regulation":"Yönetmelik 6","description":"Atıcılık Kulübü Açıklama","email":"aticilik"}
+	{"id":1,"name":"Dağcılık","avatar":"http://i60.tinypic.com/250ma6q.jpg","supervisor":1,"regulation":"Yönetmelik 1","description":"Dağcılık Kulübü Açıklama","email":"dagcilik"},
+	{"id":2,"name":"Satranç","avatar":"http://i58.tinypic.com/119cc3d.jpg","supervisor":1,"regulation":"Yönetmelik 2","description":"Satranç Kulübü Açıklama","email":"satranc"},
+	{"id":3,"name":"Sinema","avatar":"http://i62.tinypic.com/2z8telt.jpg","supervisor":1,"regulation":"Yönetmelik 3","description":"Sinema Kulübü Açıklama","email":"sinema"},
+	{"id":4,"name":"Tiyatro","avatar":"http://i62.tinypic.com/2irmzhz.jpg","supervisor":1,"regulation":"Yönetmelik 4","description":"Tiyatro Kulübü Açıklama","email":"tiyatro"},
+	{"id":5,"name":"Bilişim","avatar":"http://i59.tinypic.com/30lce3c.png","supervisor":1,"regulation":"Yönetmelik 5","description":"Bilişim Kulübü Açıklama","email":"bilisim@bilisim.com"},
+	{"id":6,"name":"Atıcılık","avatar":"http://i59.tinypic.com/5cmyc3.jpg","supervisor":1,"regulation":"Yönetmelik 6","description":"Atıcılık Kulübü Açıklama","email":"aticilik"}
 ]
