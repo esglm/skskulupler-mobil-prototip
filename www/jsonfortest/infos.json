@@ -1,15 +1,15 @@
 [
-	{"id":1,"title":"Haber 1","content":"Haber İçeriği 1","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":2,"title":"Haber 2","content":"Haber İçeriği 2","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":3,"title":"Haber 3","content":"Haber İçeriği 3","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":4,"title":"Haber 4","content":"Haber İçeriği 4","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":5,"title":"Haber 5","content":"Haber İçeriği 5","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":6,"title":"Haber 6","content":"Haber İçeriği 6","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":7,"title":"Haber 7","content":"Haber İçeriği 7","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":8,"title":"Haber 8","content":"Haber İçeriği 8","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":9,"title":"Haber 9","content":"Haber İçeriği 9","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":10,"title":"Haber 10","content":"Haber İçeriği 10","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":11,"title":"Haber 11","content":"Haber İçeriği 11","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"},
-	{"id":12,"title":"Haber 12","content":"Haber İçeriği 12","avatar":"http://ionicframework.com/img/docs/blue-album.jpg","url":"http://localhost:3000/infos/1.json"}
+	{"id":1,"title":"Haber 1","content":"Haber İçeriği 1","avatar":"https://cdn2.iconfinder.com/data/icons/funtime-objects-part-2/60/005_037_crown_corona_king_power_best-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":2,"title":"Haber 2","content":"Haber İçeriği 2","avatar":"https://cdn2.iconfinder.com/data/icons/funtime-objects-part-2/60/005_068_label_price_tag_discount_brand-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":3,"title":"Haber 3","content":"Haber İçeriği 3","avatar":"https://cdn2.iconfinder.com/data/icons/funtime-objects-part-2/60/005_060_alarm_watch_clock_time_timepiece_deadline-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":4,"title":"Haber 4","content":"Haber İçeriği 4","avatar":"https://cdn3.iconfinder.com/data/icons/cosmo-color-holiday-1/40/present_gift-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":5,"title":"Haber 5","content":"Haber İçeriği 5","avatar":"https://cdn3.iconfinder.com/data/icons/cosmo-color-holiday-1/40/four-leaved_shamrock_lucky-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":6,"title":"Haber 6","content":"Haber İçeriği 6","avatar":"https://cdn3.iconfinder.com/data/icons/cosmo-color-holiday-1/40/present-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":7,"title":"Haber 7","content":"Haber İçeriği 7","avatar":"https://cdn3.iconfinder.com/data/icons/cosmo-color-holiday-1/40/happy_sunny-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":8,"title":"Haber 8","content":"Haber İçeriği 8","avatar":"https://cdn2.iconfinder.com/data/icons/funtime-objects-part-2/60/005_041_magic_hat_cylinder_wizard_prodigy_magician-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":9,"title":"Haber 9","content":"Haber İçeriği 9","avatar":"https://cdn2.iconfinder.com/data/icons/funtime-objects-part-2/60/005_044_christmas_tree_xmas_newyear_new_year_decorate_fir-tree-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":10,"title":"Haber 10","content":"Haber İçeriği 10","avatar":"https://cdn2.iconfinder.com/data/icons/tree-4/164/10-128.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":11,"title":"Haber 11","content":"Haber İçeriği 11","avatar":"https://cdn0.iconfinder.com/data/icons/customicondesignoffice5/128/content-tree.png","url":"http://localhost:3000/infos/1.json"},
+	{"id":12,"title":"Haber 12","content":"Haber İçeriği 12","avatar":"https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/traffic-light-128.png","url":"http://localhost:3000/infos/1.json"}
 
 ]

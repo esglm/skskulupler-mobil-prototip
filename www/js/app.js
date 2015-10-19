@@ -1,6 +1,8 @@
 angular.module('starter', ['ionic', 'starter.controllers'])
 
 
+
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -23,6 +25,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         activitiesUrl = 'jsonfortest/activities.json',
         newsUrl       = 'jsonfortest/infos.json',
         noticesUrl    = 'jsonfortest/notices.json';
+
+
 
     return {
         getClubs: function(success) {
